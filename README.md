@@ -1,61 +1,54 @@
-# 💎 Exploratory Data Analysis on Jewelry Sales Dataset
+# Titanic EDA 🚢📊
 
-This repository contains an Exploratory Data Analysis (EDA) project on a cleaned e-commerce jewelry sales dataset. The goal was to explore, visualize, and extract insights from the data using Python.
-
----
-
-## 🎯 Objective
-
-- Understand the structure and statistical summary of the dataset
-- Visualize relationships and patterns in features such as price, product type, material, and target audience
-- Identify trends, distributions, and correlations
-- Summarize findings with plots and observations
+This project performs **Exploratory Data Analysis (EDA)** on the Titanic dataset from Kaggle using **Python**, **Pandas**, **Seaborn**, and **Matplotlib**.
 
 ---
 
-## 🧰 Tools & Libraries
+## 📁 Dataset
 
-- Python (Jupyter Notebook)
+The dataset used is the [`train.csv`](https://www.kaggle.com/c/titanic/data) file from the Kaggle Titanic competition.
+
+---
+
+## 🛠️ Tools Used
+
+- Python
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook / VS Code
 
 ---
 
-## 📝 Key Steps in EDA
+## 📊 Work Done
 
-1. **Data Cleaning**  
-   - Checked for nulls and duplicates  
-   - Standardized column names
-
-2. **Data Exploration**  
-   - `.describe()`, `.info()`, `.value_counts()`  
-   - Count plots, histograms, boxplots
-
-3. **Visualization**  
-   - `sns.heatmap()` for correlations  
-   - `sns.pairplot()` for multivariate analysis  
-   - Category-wise visualizations
-
-4. **Observations & Insights**  
-   - Provided comments under each plot  
-   - Summarized findings in the final section
+- Loaded and cleaned the Titanic dataset.
+- Analyzed missing values and handled them appropriately.
+- Performed univariate and bivariate analysis:
+  - Age, Sex, Pclass, Fare, and Embarked distributions
+  - Survival rates by gender, class, and age
+- Created visualizations:
+  - Histograms, boxplots, countplots, pairplot, heatmap
+- Identified trends and correlations related to passenger survival.
+- Summarized key findings.
 
 ---
 
-## 📂 Project Structure
 
-- `datasets/`: Input dataset
-- `notebook/`: Jupyter notebook with full EDA
-- `report/`: PDF report of the analysis and findings
-- `README.md`: Documentation
+## 📝 Summary of Findings
+
+- Females had significantly higher survival rates than males.
+- Passengers in 1st class had the highest chances of survival.
+- Age and Fare showed meaningful patterns with survival.
+- Data cleaning and EDA were crucial in understanding the dataset.
 
 ---
 
-## 📌 Findings
+## 📂 Files Included
 
-- High-value products are often made of gold or diamonds
-- Women-targeted products have more variation in price
-- Some strong correlations observed between price and product type
+- `titanic_eda.ipynb` – Jupyter Notebook with full analysis
+- `train.csv` – Titanic dataset
+- `README.md` – This file
 
---- 
+---
