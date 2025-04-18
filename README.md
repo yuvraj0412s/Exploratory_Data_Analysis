@@ -47,7 +47,7 @@ The dataset used is the [`train.csv`](https://www.kaggle.com/c/titanic/data) fil
 
 ## 📂 Files Included
 
-- `titanic_eda.ipynb` – Jupyter Notebook with full analysis
+- `titanic_eda.py` – full analysis
 - `train.csv` – Titanic dataset
 - `README.md` – This file
 
