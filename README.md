@@ -1,4 +1,12 @@
 # 🚢 Titanic Survival Analysis — Exploratory Data Analysis (EDA)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib"/>
+  <img src="https://img.shields.io/badge/Seaborn-41B4BD?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn"/>
+</p>
+
 
 This project explores the **Titanic dataset** to uncover insights about passenger survival. Using Python libraries like **Pandas**, **Seaborn**, and **Matplotlib**, I performed data cleaning, transformation, and visualization to answer key questions such as:
 
@@ -45,6 +53,20 @@ This project explores the **Titanic dataset** to uncover insights about passenge
 
 ---
 
+## 📁 Project Structure
+
+.
+├── train.csv # Input dataset
+├── Task5.py # Main analysis script
+├── .gitignore # Git ignore rules
+├── Output Graphs: # Saved visualizations
+│ ├── output_1_survival_count.png
+│ ├── output_2_survival_by_sex.png
+│ ├── output_3_survival_by_class.png
+│ ├── output_4_age_distribution.png
+│ ├── output_5_age_vs_survival_boxplot.png
+│ ├── output_6_pairplot.png
+│ └── output_7_correlation_heatmap.png
 
 ---
 
