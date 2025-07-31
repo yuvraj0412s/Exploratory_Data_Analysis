@@ -53,32 +53,6 @@ This project explores the **Titanic dataset** to uncover insights about passenge
 
 ---
 
-## 📁 Project Structure
-
-Titanic-EDA/
-│
-├── Task5.py                        # Main Python script for Exploratory Data Analysis
-├── train.csv                      # Titanic dataset CSV file
-├── README.md                      # Project documentation and overview
-├── requirements.txt               # Required Python libraries (pandas, matplotlib, seaborn, numpy)
-│
-├── Output_graphs/                 # Folder containing all generated plots/images
-│   ├── output_1_survival_count.png
-│   ├── output_2_survival_by_sex.png
-│   ├── output_3_survival_by_class.png
-│   ├── output_4_age_distribution.png
-│   ├── output_5_age_vs_survival_boxplot.png
-│   ├── output_6_pairplot.png
-│   └── output_7_correlation_heatmap.png
-│
-└── assets/                       # (Optional) Folder for project images, logos, badges used in README
-    ├── python-logo.png
-    ├── pandas-logo.png
-    ├── numpy-logo.png
-    └── seaborn-logo.png
-
----
-
 ## 🚀 How to Run
 
 ```bash
