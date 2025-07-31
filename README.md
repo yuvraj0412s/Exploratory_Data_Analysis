@@ -56,13 +56,14 @@ This project explores the **Titanic dataset** to uncover insights about passenge
 ## 📁 Project Structure
 
 .
-├── train.csv # Input dataset
-├── Task5.py # Main analysis script
+├─ train.csv # Input dataset
+├─ Task5.py # Main analysis script
 ├── .gitignore # Git ignore rules
 ├── Output Graphs: # Saved visualizations
 │ ├── output_1_survival_count.png
 │ ├── output_2_survival_by_sex.png
 │ ├── output_3_survival_by_class.png
+
 │ ├── output_4_age_distribution.png
 │ ├── output_5_age_vs_survival_boxplot.png
 │ ├── output_6_pairplot.png
